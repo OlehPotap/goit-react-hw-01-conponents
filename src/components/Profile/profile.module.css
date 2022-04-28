@@ -1,0 +1,118 @@
+.profile {
+    width: 400px;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-color: #F3F6F9;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.avatar {
+    background-color: white;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.name {
+    margin: 0 0 20px 0;
+
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.tag {
+    /* margin: 0; */
+
+    color: #99A4B0;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.location{
+    margin-bottom: 80px;
+
+    color: #99A4B0;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.stats {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid turquoise;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    background-color: aliceblue;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.item {
+    display: flex;
+   flex-direction: column;
+}
+
+.label {
+
+    margin-bottom: 15px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.quantity {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* .stats li:before{ 
+    content: " ";
+    background: #33CCFF;
+    width: 2px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    } */
+/* 
+.stats li:first-child::before{ 
+        content: " ";
+        background: transparent;
+        width: 2px;
+        height: 25px;
+        float: left;
+        margin-right: 10px;
+        position: absolute;
+        } */

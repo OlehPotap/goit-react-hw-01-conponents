@@ -1,0 +1,36 @@
+.item {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: white;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.avatar {
+    margin-left: 10px;
+}
+
+.name {
+    margin-left: 30px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
